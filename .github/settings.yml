@@ -5,4 +5,4 @@
 repository:
   description: Install MATE on your system.
   homepage: https://buluma.github.io/
-  topics: mate, ansible, molecule, tox, playbook, hacktoberfest
+  topics: mate, ansible, molecule, tox, playbook

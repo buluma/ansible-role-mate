@@ -1,10 +1,10 @@
-# [mate](#mate)
+# [Ansible role mate](#mate)
 
 Install MATE on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-mate/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-mate/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-mate/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-mate)|[![quality](https://img.shields.io/ansible/quality/58804)](https://galaxy.ansible.com/buluma/mate)|[![downloads](https://img.shields.io/ansible/role/d/58804)](https://galaxy.ansible.com/buluma/mate)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-mate/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-mate/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-mate/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-mate)|[![downloads](https://img.shields.io/ansible/role/d/4760)](https://galaxy.ansible.com/buluma/mate)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -25,7 +25,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
 ```yaml
 ---
-- name: prepare
+- name: Prepare
   hosts: all
   become: yes
   gather_facts: no

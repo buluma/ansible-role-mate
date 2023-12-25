@@ -1,10 +1,10 @@
-# [Ansible role mate](#mate)
+# Ansible role [mate](https://galaxy.ansible.com/ui/standalone/roles/buluma/mate/documentation)
 
 Install MATE on your system.
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-mate/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-mate/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-mate/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-mate)|[![downloads](https://img.shields.io/ansible/role/d/4760)](https://galaxy.ansible.com/buluma/mate)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-mate/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-mate/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-mate.svg)](https://github.com/buluma/ansible-role-mate/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/mate)](https://galaxy.ansible.com/ui/standalone/roles/buluma/mate/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -46,10 +46,10 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-epel/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-epel)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Ansible Molecule](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/shadowwalker/ansible-role-epel)|
 
 ## [Context](#context)
 
@@ -85,14 +85,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-mate/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-mate/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)

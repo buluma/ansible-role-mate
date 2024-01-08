@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-mate/tree/HEAD)
+## [v0.2.0](https://github.com/buluma/ansible-role-mate/tree/v0.2.0) (2024-01-02)
 
-[Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v0.1.4...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v0.1.4...v0.2.0)
 
 **Closed issues:**
 

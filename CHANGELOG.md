@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-mate/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v0.2.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#15](https://github.com/buluma/ansible-role-mate/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v0.2.0](https://github.com/buluma/ansible-role-mate/tree/v0.2.0) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v0.1.4...v0.2.0)

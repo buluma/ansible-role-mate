@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-mate/tree/HEAD)
+## [v24.3.31](https://github.com/buluma/ansible-role-mate/tree/v24.3.31) (2024-03-30)
 
-[Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v0.3.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v0.3.0...v24.3.31)
 
 **Merged pull requests:**
 

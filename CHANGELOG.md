@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-mate/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#24](https://github.com/buluma/ansible-role-mate/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v24.3.31](https://github.com/buluma/ansible-role-mate/tree/v24.3.31) (2024-03-30)
 
 [Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v0.3.0...v24.3.31)

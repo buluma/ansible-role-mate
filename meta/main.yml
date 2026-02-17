@@ -2,11 +2,10 @@
 galaxy_info:
   author: buluma
   role_name: mate
-  description: Install MATE on your system.
+  description: 'Install MATE on your system.'
   license: Apache-2.0
   company: none
-  min_ansible_version: "2.12"
-
+  min_ansible_version: 2.12
   platforms:
     - name: Debian
       versions:
@@ -23,8 +22,6 @@ galaxy_info:
     - name: Kali
       versions:
         - all
-
   galaxy_tags:
     - mate
-
 dependencies: []

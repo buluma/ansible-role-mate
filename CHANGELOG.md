@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-mate/compare/v24.3.31...HEAD)
 
+**Closed issues:**
+
+- Update action [\#11](https://github.com/buluma/ansible-role-mate/issues/11)
+- rebuild action [\#10](https://github.com/buluma/ansible-role-mate/issues/10)
+
 **Merged pull requests:**
 
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#26](https://github.com/buluma/ansible-role-mate/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))

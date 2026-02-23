@@ -1,10 +1,10 @@
 ---
-  - name: Verify
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Verify
+  hosts: all
+  become: true
+  gather_facts: false
 
-    tasks:
-      - name: Check mate-session
-        ansible.builtin.command:
-          cmd: mate-session --help
+  tasks:
+  - name: Check mate-session
+    ansible.builtin.command:
+      cmd: mate-session --help

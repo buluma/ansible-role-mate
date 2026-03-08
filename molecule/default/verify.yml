@@ -5,6 +5,6 @@
   gather_facts: false
 
   tasks:
-  - name: Check mate-session
-    ansible.builtin.command:
-      cmd: mate-session --help
+    - name: Check mate-session
+      ansible.builtin.command:
+        cmd: mate-session --help

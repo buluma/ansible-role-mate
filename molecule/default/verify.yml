@@ -7,5 +7,5 @@
   tasks:
     - name: Check mate-session
       ansible.builtin.command:
-      changed_when: false
         cmd: mate-session --help
+      changed_when: false

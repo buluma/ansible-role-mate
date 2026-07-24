@@ -42,16 +42,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      # EL9/10 dropped: EPEL's own comps.xml (both EPEL9 and EPEL10) no
+      # longer defines the '@mate-desktop' group this role installs -
+      # EPEL removed it, not something this role can work around.
       matrix:
         distro:
-          - image: "docker-molecule-images"
-            tag: "rockylinux10"
-          - image: "docker-molecule-images"
-            tag: "almalinux10"
-          - image: "docker-molecule-images"
-            tag: "rockylinux9"
-          - image: "docker-molecule-images"
-            tag: "almalinux9"
           - image: "docker-molecule-images"
             tag: "debian13"
           - image: "docker-molecule-images"

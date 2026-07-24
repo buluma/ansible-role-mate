@@ -1,11 +1,11 @@
 ---
 # Pins the CI platform/version matrix for this role. Without this, ansible-generator
 # falls back to default_platforms and silently discards these choices on regenerate.
+#
+# EL is excluded entirely: EPEL's own comps.xml (EPEL9 and EPEL10) no
+# longer defines the '@mate-desktop' group this role installs - EPEL
+# removed it, not something this role can work around.
 platforms:
-  - name: EL
-    versions:
-      - "10"
-      - "9"
   - name: Debian
     versions:
       - all

@@ -42,9 +42,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      # EL9/10 dropped: EPEL's own comps.xml (both EPEL9 and EPEL10) no
-      # longer defines the '@mate-desktop' group this role installs -
-      # EPEL removed it, not something this role can work around.
       matrix:
         distro:
           - image: "docker-molecule-images"
@@ -89,7 +86,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip3 install ansible molecule molecule-plugins[docker] docker
+          pip3 install "ansible==15.0.0" "molecule==26.11.0" "molecule-plugins[docker]==26.11.0" "docker==7.2.0"
 
       - name: Test with molecule
         run: |
